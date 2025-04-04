@@ -1,1 +1,283 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Sviluppatore</title>
+  <meta name="description" content="Un portfolio professionale che mostra le mie competenze e progetti">
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome per le icone -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">Portfolio</div>
+      <nav class="desktop-nav">
+        <a href="#about">Chi Sono</a>
+        <a href="#skills">Competenze</a>
+        <a href="#projects">Progetti</a>
+        <a href="#contact">Contatti</a>
+      </nav>
+      <button class="mobile-menu-btn" aria-label="Menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </header>
 
+  <!-- Menu Mobile -->
+  <div class="mobile-menu" id="mobile-menu">
+    <div class="mobile-menu-header">
+      <button class="mobile-menu-close" aria-label="Chiudi menu">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    <nav class="mobile-nav">
+      <a href="#about" class="mobile-nav-link">Chi Sono</a>
+      <a href="#skills" class="mobile-nav-link">Competenze</a>
+      <a href="#projects" class="mobile-nav-link">Progetti</a>
+      <a href="#contact" class="mobile-nav-link">Contatti</a>
+    </nav>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Ciao, sono <span>Il Tuo Nome</span></h1>
+          <h2>Sviluppatore Frontend</h2>
+          <p>Sviluppo applicazioni web responsive e user-friendly con tecnologie moderne.</p>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary">Contattami</a>
+            <a href="#projects" class="btn btn-outline">Vedi Progetti</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="profile-image">
+            <img src="https://via.placeholder.com/320" alt="Profilo">
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <a href="#about">
+          <i class="fas fa-chevron-down bounce"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">Chi Sono</h2>
+      <div class="about-content">
+        <div class="about-image">
+          <img src="https://via.placeholder.com/600x400" alt="Chi Sono">
+        </div>
+        <div class="about-text">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div class="social-links">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://t.me/rromaanoprojects_bot" target="_blank" rel="noopener noreferrer">
+              <i class="fas fa-paper-plane"></i>
+            </a>
+            <a href="mailto:your.email@example.com">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2 class="section-title">Le Mie Competenze</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>HTML</h3>
+        </div>
+        <div class="skill-card">
+          <h3>CSS</h3>
+        </div>
+        <div class="skill-card">
+          <h3>JavaScript</h3>
+        </div>
+        <div class="skill-card">
+          <h3>React</h3>
+        </div>
+        <div class="skill-card">
+          <h3>Next.js</h3>
+        </div>
+        <div class="skill-card">
+          <h3>Tailwind CSS</h3>
+        </div>
+        <div class="skill-card">
+          <h3>Git</h3>
+        </div>
+        <div class="skill-card">
+          <h3>Design Responsive</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2 class="section-title">I Miei Progetti</h2>
+      <div class="projects-grid">
+        <!-- Progetto 1 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="https://via.placeholder.com/384x192?text=Progetto+1" alt="Progetto 1">
+          </div>
+          <div class="project-content">
+            <h3>Progetto 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="project-tags">
+              <span>React</span>
+              <span>Tailwind</span>
+              <span>API</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">
+                <i class="fab fa-github"></i>
+                <span>Codice</span>
+              </a>
+              <a href="#" class="project-link">
+                <i class="fas fa-external-link-alt"></i>
+                <span>Demo</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Progetto 2 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="https://via.placeholder.com/384x192?text=Progetto+2" alt="Progetto 2">
+          </div>
+          <div class="project-content">
+            <h3>Progetto 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="project-tags">
+              <span>React</span>
+              <span>Tailwind</span>
+              <span>API</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">
+                <i class="fab fa-github"></i>
+                <span>Codice</span>
+              </a>
+              <a href="#" class="project-link">
+                <i class="fas fa-external-link-alt"></i>
+                <span>Demo</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Progetto 3 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="https://via.placeholder.com/384x192?text=Progetto+3" alt="Progetto 3">
+          </div>
+          <div class="project-content">
+            <h3>Progetto 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="project-tags">
+              <span>React</span>
+              <span>Tailwind</span>
+              <span>API</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">
+                <i class="fab fa-github"></i>
+                <span>Codice</span>
+              </a>
+              <a href="#" class="project-link">
+                <i class="fas fa-external-link-alt"></i>
+                <span>Demo</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Contattami</h2>
+      <div class="contact-form-container">
+        <form class="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Nome</label>
+              <input type="text" id="name" placeholder="Il Tuo Nome">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="tua.email@esempio.com">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Oggetto</label>
+            <input type="text" id="subject" placeholder="Oggetto">
+          </div>
+          <div class="form-group">
+            <label for="message">Messaggio</label>
+            <textarea id="message" rows="5" placeholder="Il tuo messaggio..."></textarea>
+          </div>
+          <div class="form-buttons">
+            <button type="submit" class="btn btn-primary btn-full">Invia Messaggio</button>
+            <a href="https://t.me/rromaanoprojects_bot" target="_blank" rel="noopener noreferrer" class="btn btn-telegram btn-full">Contattami su Telegram</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <p class="footer-name">Il Tuo Nome</p>
+          <p class="footer-title">Sviluppatore Frontend</p>
+        </div>
+        <div class="footer-social">
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="mailto:your.email@example.com">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <p>&copy; <span id="current-year"></span> Il Tuo Nome. Tutti i diritti riservati.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <button id="scroll-to-top" class="scroll-to-top" aria-label="Torna in cima">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
