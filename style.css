@@ -26,6 +26,10 @@
     color: inherit;
   }
   
+  p {
+    text-align: center;
+  }
+
   /* Utility */
   .container {
     width: 100%;
